@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{BA4B40D3-04CB-49DF-A83C-7F7C67A3C9AD}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestSelectedItemInListView/TestSelectedItemInListViewViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestSelectedItemInListView/MyModel.cs">
     <Files>
       <File FileName="TestSelectedItemInListView/TestSelectedItemInListViewViewModel.cs" Line="33" Column="4" />
-      <File FileName="TestSelectedItemInListView/MyModel.cs" Line="13" Column="1" />
+      <File FileName="TestSelectedItemInListView/MyModel.cs" Line="13" Column="37" />
       <File FileName="TestSelectedItemInListView/FodyWeavers.xml" Line="3" Column="21" />
       <File FileName="TestSelectedItemInListView/TestSelectedItemInListViewPage.xaml.cs" Line="11" Column="52" />
+      <File FileName="TestSelectedItemInListView/Converter.cs" Line="6" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

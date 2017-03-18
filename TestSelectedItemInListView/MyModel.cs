@@ -12,17 +12,6 @@ namespace TestSelectedItemInListView
 
 		public bool Selected { get; set; }
 
-		public Color TextColor
-		{
-			get
-			{
-				if (Selected)
-					return Color.Black;
-				else
-					return Color.Green;
-			}
-		}
-
 		public MyModel()
 		{
 		}

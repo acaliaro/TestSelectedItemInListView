@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TestSelectedItemInListView" x:Class="TestSelectedItemInListView.TestSelectedItemInListViewPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:TestSelectedItemInListView" 
+	x:Class="TestSelectedItemInListView.TestSelectedItemInListViewPage">
+	<ContentPage.Resources>
+        <ResourceDictionary>
+            <local:SelectedToColorConverter x:Key="cnvInvert"></local:SelectedToColorConverter>
+        </ResourceDictionary>
+        </ContentPage.Resources>
+
 	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
 	<ListView SelectedItem="{Binding SelectedItem}" ItemsSource="{Binding List}">
 	  	<ListView.ItemTemplate>
 	      <DataTemplate>
 	        <ViewCell>
-	          <Label Text="{Binding Name}" TextColor="{Binding TextColor}" FontSize="18"></Label>
+	          <Label Text="{Binding Name}" TextColor="{Binding Selected, Converter={StaticResource cnvInvert}}}" FontSize="18"></Label>
 	        </ViewCell>
 	      </DataTemplate>
     	</ListView.ItemTemplate>
