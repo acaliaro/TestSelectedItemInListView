@@ -8,7 +8,11 @@ namespace TestSelectedItemInListView
 		{
 			InitializeComponent();
 
-			MainPage = new TestSelectedItemInListViewPage();
+			MasterDetailPage md = new MasterDetailPage();
+
+			md.Detail = new TestSelectedItemInListViewPage();
+			md.Master = new TestSelectedItemInListViewPage();
+			MainPage = md;
 		}
 
 		protected override void OnStart()

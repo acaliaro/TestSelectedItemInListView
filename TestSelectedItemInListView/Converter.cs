@@ -13,7 +13,7 @@ namespace TestSelectedItemInListView
 			if (value is bool)
 			{
 				if ((Boolean)value)
-					return Color.Orange;
+					return Color.Red;
 				else
 					return Color.Black;
 			}
