@@ -16,6 +16,7 @@ namespace TestSelectedItemInListView
 			MessagingCenter.Subscribe<MasterPageViewModel, string>(this, "Detail", (arg1, arg2) => {
 
 				((MasterDetailPage)Application.Current.MainPage).Detail = new DetailPage(arg2);
+				((MasterDetailPage)Application.Current.MainPage).IsPresented = false;
 			});
 			base.OnAppearing();
 		}
