@@ -10,8 +10,9 @@ namespace TestSelectedItemInListView
 
 			MasterDetailPage md = new MasterDetailPage();
 
-			md.Detail = new TestSelectedItemInListViewPage();
-			md.Master = new TestSelectedItemInListViewPage();
+			md.Detail = new DetailPage("UNSELECTED");
+			md.Master = new MasterPage();
+			md.IsPresented = true;
 			MainPage = md;
 		}
 

@@ -29,19 +29,26 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="TestSelectedItemInListViewPage.xaml" />
+    <EmbeddedResource Include="MasterPage.xaml" />
+    <EmbeddedResource Include="DetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TestSelectedItemInListViewPage.xaml.cs">
-      <DependentUpon>TestSelectedItemInListViewPage.xaml</DependentUpon>
+    <Compile Include="MasterPage.xaml.cs">
+      <DependentUpon>MasterPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestSelectedItemInListViewViewModel.cs" />
+    <Compile Include="MasterPageViewModel.cs" />
     <Compile Include="MyModel.cs" />
     <Compile Include="Converter.cs" />
+    <Compile Include="DetailPage.xaml.cs">
+      <DependentUpon>DetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DetailPageViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

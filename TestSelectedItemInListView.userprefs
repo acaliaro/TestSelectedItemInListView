@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{ACD917D0-3E5C-435A-B8C8-B323DF340F1A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestSelectedItemInListView/obj/Debug/TestSelectedItemInListView.TestSelectedItemInListViewPage.xaml.g.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestSelectedItemInListView/DetailViewModel.cs">
     <Files>
-      <File FileName="TestSelectedItemInListView/TestSelectedItemInListViewViewModel.cs" Line="33" Column="4" />
+      <File FileName="TestSelectedItemInListView/TestSelectedItemInListViewViewModel.cs" Line="14" Column="49" />
       <File FileName="TestSelectedItemInListView/MyModel.cs" Line="13" Column="37" />
       <File FileName="TestSelectedItemInListView/FodyWeavers.xml" Line="3" Column="21" />
-      <File FileName="TestSelectedItemInListView/TestSelectedItemInListViewPage.xaml.cs" Line="11" Column="52" />
-      <File FileName="TestSelectedItemInListView/Converter.cs" Line="45" Column="30" />
-      <File FileName="TestSelectedItemInListView/App.xaml.cs" Line="9" Column="26" />
-      <File FileName="TestSelectedItemInListView/obj/Debug/TestSelectedItemInListView.TestSelectedItemInListViewPage.xaml.g.cs" Line="25" Column="1" />
+      <File FileName="TestSelectedItemInListView/TestSelectedItemInListViewPage.xaml.cs" Line="18" Column="74" />
+      <File FileName="TestSelectedItemInListView/Converter.cs" Line="56" Column="1" />
+      <File FileName="TestSelectedItemInListView/App.xaml.cs" Line="14" Column="51" />
+      <File FileName="TestSelectedItemInListView/obj/Debug/TestSelectedItemInListView.TestSelectedItemInListViewPage.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="TestSelectedItemInListView/DetailPage.xaml.cs" Line="14" Column="32" />
+      <File FileName="TestSelectedItemInListView/DetailViewModel.cs" Line="9" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

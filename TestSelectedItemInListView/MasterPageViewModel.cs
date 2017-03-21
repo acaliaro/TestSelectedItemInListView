@@ -1,17 +1,18 @@
 using System;
 using System.Collections.ObjectModel;
 using PropertyChanged;
+using Xamarin.Forms;
 
 namespace TestSelectedItemInListView.ViewModels
 {
 	[ImplementPropertyChanged]
-	public class TestSelectedItemInListViewViewModel
+	public class MasterPageViewModel
 	{
 		MyModel _selectedItem { get; set; }
 		public ObservableCollection<MyModel> List { get; set; } = new ObservableCollection<MyModel>();
 
-		public TestSelectedItemInListViewViewModel() { 
-		
+		public MasterPageViewModel() {
+
 			List.Add(new MyModel() {Name ="Alessandro", Surname = "Caliaro" });
 			List.Add(new MyModel() { Name="Marco", Surname = "VanBasten"});
 			List.Add(new MyModel() { Name="James", Surname ="Lebron"});
@@ -28,7 +29,10 @@ namespace TestSelectedItemInListView.ViewModels
 				_selectedItem = value;
 
 				if (_selectedItem != null)
+				{
 					_selectedItem.Selected = true;
+					MessagingCenter.Send<MasterPageViewModel, string>(this, "Detail", _selectedItem.Name);
+				}
 			}
 		}
 
