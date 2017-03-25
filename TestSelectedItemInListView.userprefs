@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{ACD917D0-3E5C-435A-B8C8-B323DF340F1A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestSelectedItemInListView/MasterPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestSelectedItemInListView/MasterPageViewModel.cs">
     <Files>
-      <File FileName="TestSelectedItemInListView/MasterPage.xaml.cs" Line="6" Column="12" />
+      <File FileName="TestSelectedItemInListView/MasterPage.xaml.cs" Line="28" Column="4" />
       <File FileName="TestSelectedItemInListView/DetailPage.xaml.cs" Line="18" Column="2" />
       <File FileName="TestSelectedItemInListView/App.xaml.cs" Line="14" Column="20" />
+      <File FileName="TestSelectedItemInListView/MasterPageViewModel.cs" Line="37" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
