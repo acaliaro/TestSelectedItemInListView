@@ -1,12 +1,12 @@
 using System;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using PropertyChanged;
 using Xamarin.Forms;
 
 namespace TestSelectedItemInListView.ViewModels
 {
-	[ImplementPropertyChanged]
-	public class MasterPageViewModel
+	public class MasterPageViewModel : INotifyPropertyChanged
 	{
 		MyModel _selectedItem { get; set; }
 		public ObservableCollection<MyModel> List { get; set; } = new ObservableCollection<MyModel>();
@@ -36,6 +36,7 @@ namespace TestSelectedItemInListView.ViewModels
 			}
 		}
 
-	}
+        public event PropertyChangedEventHandler PropertyChanged;
+    }
 
 }

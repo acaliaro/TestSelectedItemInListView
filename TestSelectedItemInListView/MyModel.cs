@@ -1,11 +1,11 @@
 ﻿using System;
+using System.ComponentModel;
 using PropertyChanged;
 using Xamarin.Forms;
 
 namespace TestSelectedItemInListView
 {
-	[ImplementPropertyChanged]
-	public class MyModel
+	public class MyModel : INotifyPropertyChanged
 	{
 		public string Name { get; set; }
 		public string Surname { get; set; }
@@ -15,5 +15,7 @@ namespace TestSelectedItemInListView
 		public MyModel()
 		{
 		}
-	}
+
+        public event PropertyChangedEventHandler PropertyChanged;
+    }
 }

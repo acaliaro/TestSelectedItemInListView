@@ -1,0 +1,7 @@
+.vs/
+Droid/bin/
+Droid/obj/
+iOS/
+TestSelectedItemInListView/obj/
+TestSelectedItemInListView/bin/
+packages/
